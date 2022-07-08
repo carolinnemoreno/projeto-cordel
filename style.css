@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    
+
+}
+
+
+header{
+    background-color: black;
+    padding-top: 40px;
+    min-height: 250px;
+    max-width: 4000x;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    
+}
+
+header p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+header p a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+   
+    
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.primeiro{
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'satisfy';
+    line-height: 100px;
+ }
+
+ .segundo{
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'satisfy';
+    line-height: 100px;
+ }
+ .terceiro{
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'satisfy';
+    line-height: 100px;
+ }
+ 
+
+ #container{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 96vh;
+    background-attachment: fixed;
+    
+    
+ }
+
+ #container2{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 96vh;
+    background-attachment: fixed;
+
+ }
+
+ #conteudo{
+    position: absolute;
+    color: white;
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    font-family: 'satisfy';
+    font-size: 45px;
+    padding: 20px;
+    line-height: 60px;
+    background-attachment: fixed;
+
+    left: 1%;
+    top: 5%;
+
+   
+    
+ }
+ #conteudo2{
+    position: absolute;
+    color: white;
+    height: 600px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.629);
+    font-family: 'satisfy';
+    font-size: 45px;
+    padding: 20px;
+    line-height: 60px;
+
+    left: 1%;
+    top: 5%;
+    
+ }
+ footer{
+    background-color: black;
+ }
+
+ footer p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
